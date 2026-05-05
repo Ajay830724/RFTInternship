@@ -1,0 +1,18 @@
+.card{
+    /* border:2px solid black; */
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    margin:5px;
+
+     /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  box-shadow:4px 4px 10px black;
+}
+.card > img{
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    padding-top: 10px
+    
+}
