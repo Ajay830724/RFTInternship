@@ -1,3 +1,6 @@
+.cardBox{
+    display:"flex"
+}
 .card{
     /* border:2px solid black; */
     width: 200px;
@@ -5,7 +8,6 @@
     text-align: center;
     margin:5px;
 
-     /* border: 1px solid #ddd; */
   border-radius: 10px;
   box-shadow:4px 4px 10px black;
 }

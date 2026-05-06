@@ -1,10 +1,10 @@
 import Cards from "./Cards"
 import FormBox from "./FormBox"
-export  default function Day2(){
+export  default function Day2({isChange}){
     return (
-        <div>
-            <Cards/>
-            {/* <FormBox/> */}
+        <div> 
+            <FormBox/>
+            <Cards isChange={isChange}/>            
         </div>
     )
 }

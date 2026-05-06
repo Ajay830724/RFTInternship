@@ -1,9 +1,9 @@
 import "./Card.css"
-export default function Card({data}){
-    return (
+export default function Card({data,isChange}){
+    return (        
         <div style={{display:"flex"}}>
             {data.map((d,idx)=>{
-                return <div className="card">
+                return <div className="card" key={idx} style={isChange? {boxShadow:"4px 4px 10px white"}:{boxShadow:"4px 4px 10px black"}}>
                             <img src={d.img} alt="" />
                             <h3>{d.name}</h3>
                             <p> Age: {d.age}</p>

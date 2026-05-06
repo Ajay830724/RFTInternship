@@ -1,6 +1,6 @@
 import Card from "./Card"
 // import {useState} from 'react';
-export default function Cards(){
+export default function Cards({isChange}){
     // let [users, setUsers]=useState({});
     let users=[{img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCIyTZVXyb90oYHRiiX6YkNUc0CnzGwWjI3Q&s",
              name:"Nandni",
@@ -19,9 +19,9 @@ export default function Cards(){
             },
         ];
     return (
-        <div style={{display:"flex"}}>
-            <Card data={users}/>
-            {/* <Card data={users}/> */}
+        <div style={{ marginTop:"40px"}}>
+            <h3>Our Users Details</h3>
+            <Card data={users} isChange={isChange} />
         </div>
     )
 }
