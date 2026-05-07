@@ -1,4 +1,3 @@
-
 export default function Day3({handlerChange}){
     function handlerChangeTheme(){
         console.log("handlerChangeThemem...");
