@@ -1,7 +1,7 @@
 import InputForm from "./InputForm";
 import ToDoList from "./ToDoList";
 import { useState } from "react";
-export default function Day5(){
+export default function Day6(){
     let [data, setData]= useState([]);
 
     let changeData= (newData)=>{

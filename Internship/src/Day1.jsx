@@ -21,3 +21,4 @@ export default function Day1(){
         </div>
     )
 }
+
